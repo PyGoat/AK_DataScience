@@ -1,17 +1,17 @@
 # this code tests using a while loop to iterate through and print multiple items to console
-guns = 1
-while guns < 7:
-    print('get more guns')
-    guns = guns + 1
-if guns == 7:
+tacos = 1
+while tacos < 7:
+    print('buy more tacos')
+    tacos = tacos + 1
+if tacos == 7:
     print('thats enough')
 print('all done')
 
 # I used this code to test taking a user input and making sure it is not case sensitive
 while True:
-    print('what is the best gun?')
-    gun = input().lower()
-    if gun == 'glock':
+    print('what is the best taco?')
+    tacos = input().lower()
+    if tacos == 'beef':
         break
 print('Yup you are right')
 
